@@ -174,7 +174,7 @@ main{
 }
 
 .instagram .sidebar-contents {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
 }
 
@@ -224,4 +224,11 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  セレクタ｛
+  　color: ;
+  　width: 100%;
+  }
 }
